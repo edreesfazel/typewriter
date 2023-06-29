@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+body{
+    font-family: 'Bruno Ace SC', cursive;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 22px;
+    background-color: black;
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+span{
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
